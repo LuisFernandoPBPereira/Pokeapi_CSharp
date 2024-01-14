@@ -62,5 +62,15 @@ namespace Pokeapi
             public string name { get; set; }
             public string url { get; set; }
         }
+        public class Caracteristicas
+        { 
+            public List<Descricao> descricoes { get; set; }
+        }
+
+        public class Descricao
+        {
+            public string descricao { get; set; }
+
+        }
     }
 }
